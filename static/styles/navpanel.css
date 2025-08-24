@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+body{
+    background: linear-gradient(90deg, #041abd 0%, #000000 100%);
+    font-family: Jura, serif;
+    font: 20px Jura;
+} 
+
+.navbar {
+    background-color: rgb(61, 59, 59);
+}
+.nav-link {
+    color: rgb(65, 230, 175);
+}
+.navbar-nav .nav-link.active {
+    color: rgb(170, 163, 163);
+}
+.navbar-brand img{
+    width: 100px;
+}
+.navbar-toggler{
+    background-color: rgb(170, 163, 163);
+}
+.text{
+    color: aquamarine;
+    background: linear-gradient(270deg, #2a40eb 0%, #1f1d1d 101%);
+
+}
+.card{
+     background: linear-gradient(270deg, #020202 0%, #4f35e4 101%);
+}
+.card a {
+    color: aquamarine;
+    text-decoration: none;
+}
+.card-title{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 1px 1px #d33636;
+}
+.slide-text{
+ color: aquamarine;
+ margin: auto auto;
+}
+@media (max-width: 755px){
+ .carousel-indicators {
+    display: none;
+ }
+}
+.carousel-indicators [data-bs-target] {
+background-color: #f52a2a;
+}
+footer{
+    background: linear-gradient(1800deg, #020202 0%, #4f35e4 101%);
+}
+.conteiner-fluid, .footer-text{
+    color: aquamarine;
+    margin: auto auto;
+    
+}
+.media-img{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.footer-text a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.text-call{
+animation: myAnim 2s linear 1s infinite normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+.btn{ 
+   background: linear-gradient(1800deg, #020202 0%, #4f35e4 101%); 
+}
